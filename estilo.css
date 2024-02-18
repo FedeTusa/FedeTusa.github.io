@@ -1,0 +1,141 @@
+body {
+    background-color: #2E414B;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    color: #45A049;
+    text-align: left;
+    margin: 20px 0;
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 40px;
+/*     position: relative;
+    top: 40px;
+    left: 0px;  */
+}
+
+img {
+    width: 10%;
+    display: inline-block;
+    vertical-align: middle;
+    /* margin-top: 60px; */
+}
+
+.lenguajes {
+    width: 20%;
+    padding-right: 15px;
+}
+
+
+.navegacion {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #4CAF50;
+    box-shadow: 2px 4px 40px 10px #4CAF50;
+/*     position: fixed;
+    margin-bottom: 50px;
+    padding-right: 815px;
+    opacity: 0.6; */
+
+}
+
+.navegacion__a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 85px;
+    text-decoration: none;
+    /* outline: 1px solid #b2e2b4 ; */
+}
+
+.navegacion__a:hover {
+    background-color: #b2e2b4;
+}
+
+main {
+    background-color: #2E414B;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+#perfil {
+    padding-top: 10px;
+    padding-bottom: 0;
+    border-radius: 100%;
+    padding-left: 10px;
+}
+
+#linkedin {
+    color: aliceblue;
+}
+
+#linkedin:hover {
+    color: aquamarine;
+    cursor: pointer;
+}
+
+#seccion1 {
+    background-color: #6DB684;
+    box-shadow: 2px 4px 40px 0 #609C76;
+    padding-left: 30px;
+}
+
+#seccion2 {
+    background-color: #609C76;
+    box-shadow: 2px 4px 40px 0 #548269;
+    margin-top: 5px;
+}
+
+#seccion3 {
+    background-color: #548269;
+    box-shadow: 2px 4px 40px 0 #476D5B;
+    padding-left: 30px;
+    margin-top: 5px;
+}
+
+#seccion4 {
+    background-color: #476D5B;
+    box-shadow: 2px 4px 40px 0 #3B524D;
+    padding-left: 30px;
+    margin-top: 5px;
+}
+
+#seccion5 {
+    background-color: #3B524D;
+    box-shadow: 2px 4px 40px 0 #3B524D;
+    padding-left: 30px;
+    margin-top: 5px;
+}
+
+#utn {
+    display: inline-block;
+    color: aliceblue;
+}
+
+#utn:hover {
+    color: aquamarine;
+    cursor: pointer;
+}
+
+#github {
+    color: aliceblue;
+}
+
+#github:hover {
+    color: aquamarine;
+    cursor: pointer;
+}
